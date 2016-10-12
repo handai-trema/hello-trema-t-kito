@@ -17,4 +17,4 @@ Bye 0xabc
     logger.info "Bye #{datapath_id.to_hex}!"
   end
 ```
-switch_disconnectedは、スイッチの接続が切断された時に呼び出されるため、datapath_idを引数として切断されたスイッチを表示するようにした。
+switch_disconnectedは、スイッチの接続が切断された時に呼び出されるためdatapath_idを引数として切断されたスイッチを表示するようにした。
